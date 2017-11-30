@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script type="text/javascript" src="plugins/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+</head>
+
+<body>
+    <div id="top">
+        <!-- <div id="head">head</div> -->
+        <div class="logo">
+            <img src="images/logo.png">
+        </div>
+        <div class="title">
+            <span>用户管理系统</span>
+        </div>
+        <div class="tip"><span>退出</span></div>
+        <div class="tip"><span>帮助</span></div>
+    </div>
+    <div id="main">
+        <div id="left">
+            <div class="menu">
+                <ul>
+                    <li onclick="javascript:window.location.href='userList.html'">
+                        用户查询
+                    </li>
+                    <li onclick="javascript:window.location.href='userForm.html'">
+                        用户新增
+                    </li>
+                </ul>
+            </div>
+            <div class="via">
+                <img src="images/via.jpg">
+                <div>
+                    <span>当前登录用户</span>
+                </div>
+            </div>
+        </div>
+        <div id="right">
+            <div id="content">
+                 <div class="myList-query">
+                    <label>用户名称：</label>
+                    <input type="text" name="" required="true">
+                    <button type="submit" name="" id="query">查询</button>
+                </div>
+                <table class="myList-table" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="">用户名称</td>
+                            <td>职业</td>
+                            <td>邮箱</td>
+                            <td>性别</td>
+                            <td>特长</td>
+                            <td>操作</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="">轻实训
+                            </td>
+                            <td>学生</td>
+                            <td>tiger@shixun.online</td>
+                            <td>男</td>
+                            <td>书法、乐器</td>
+                            <td>
+                                <a href="">编辑</a>
+                                <a href="">删除</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="">王宇宙
+                            </td>
+                            <td>程序猿</td>
+                            <td>codeman@cm.com</td>
+                            <td>男</td>
+                            <td>运动</td>
+                            <td>
+                                <a href="">编辑</a>
+                                <a href="">删除</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="">张丽丽
+                            </td>
+                            <td>UI设计</td>
+                            <td>jessie@google.com</td>
+                            <td>女</td>
+                            <td>音乐</td>
+                            <td>
+                                <a href="">编辑</a>
+                                <a href="">删除</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <footer><span>Copyright &copy; 2017.轻实训版权所有</span></footer>
+        </div>
+    </div>
+</body>
+
+</html>

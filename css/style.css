@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#top,
+#head,
+#footer {
+    height: 80px;
+}
+
+#head,
+#main,
+#footer {
+    margin: 0 auto;
+}
+
+#top {
+    /*background-image: url(images/topbg1.jpg );*/
+    background: #4b535d;
+}
+
+#head {}
+
+#main {
+    /*background: blue;*/
+    /*border: 2px solid red;*/
+    /* overflow: auto; */
+    display: flex;
+    flex-direction: row;
+}
+
+#left,
+#right {
+    /*border: 2px dotted black;*/
+    /*        height: 400px;*/
+}
+
+#left {
+    width: 150px;
+    /*float: left;*/
+    /*background: purple;*/
+    background: #eee;
+    min-height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#right {
+    min-height: 580px;
+    width: 491px;
+    /*float: left;*/
+    /*background: yellow;*/
+}
+
+footer {
+    /*background: gray;*/
+    height: 5%;
+    min-height: 21.5px;
+    text-align: center;
+}
+
+#content {
+    height: 95%;
+     min-height: 550px; 
+}
+
+#left ul {
+    list-style: none;
+}
+
+#left li {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-bottom: 1px solid #aaa;
+    font-size: 18px;
+    cursor: pointer;
+    /*font-weight: 500;*/
+}
+
+.logo {
+    width: 160px;
+    height: 80px;
+    /*background: green;*/
+    text-align: center;
+    float: left;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+}
+
+.title {
+    /*background: blue;*/
+    width: 350px;
+    height: 80px;
+    color: white;
+    float: left;
+    font-size: 40px;
+    line-height: 80px;
+    text-align: center;
+    font-family: '华文行楷';
+}
+
+.tip {
+    width: 80px;
+    float: right;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.info ul {
+    margin-top: 30px;
+    list-style: none;
+}
+
+.info li {
+    width: 500px;
+    margin: 15px 0px 15px 20px;
+}
+.info li .inputInfo{
+    width:500px;
+    height: 35px;
+}
+
+.topic {
+    width: 95%;
+    margin: 0 auto;
+    /*background: purple;*/
+    font-size: 24px;
+    text-align: center;
+    height: 6%;
+}
+
+.info {
+    margin: 0 auto;
+    height: 80%;
+    width: 95%;
+    /*background: red;*/
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #eee;
+}
+
+.info input:not([type="radio"]) {
+    width: 350px;
+    height: 30px;
+}
+
+.info select {
+    width: 350px;
+}
+
+.info .profession {
+    height: 30px;
+}
+
+
+.btn {
+    margin: 0 auto;
+    height: 10%;
+    width: 1316px;
+    /*background: orange;*/
+    text-align: center;
+}
+
+.btn button {
+
+    width: 120px;
+    height: 40px;
+    margin: 15px;
+}
+
+.via {
+    height: 160px;
+    /*background: black;*/
+    text-align: center;
+    /*margin-top: 300px;*/
+}
+
+.via img {
+    border-radius: 60px;
+    height: 120px;
+    width: 120px;
+}
+
+.name {
+    width: 100%;
+    height: 40px;
+    /*background: pink;*/
+    line-height: 40px;
+    text-align: center;
+}
+
+.info-right {
+    width: 60%;
+    /*background: blue;*/
+}
+
+.info-right img {
+    width: 200px;
+    height: 200px;
+}
+
+.info-left {
+    width: 520px;
+    /*background: red;*/
+}
+
+.upimg {
+    margin-top: 40px;
+}
+.upimg img{
+    border-radius: 15px;
+}
+
+.upimg button {
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+}
+.myList-table {
+    margin-top: 20px;
+    width: 850px;
+    margin-left: 35px;
+    border-left: 1px solid #F3F3F3;
+    border-top: 1px solid #F3F3F3;
+}
+
+.myList-table thead {
+    background-color: #f0f0f0;
+}
+
+.myList-table td {
+    height: 30px;
+    border-right: 1px solid #F3F3F3;
+    border-bottom: 1px solid #F3F3F3;
+}
+
+.myList-table tbody a {
+    text-decoration: none;
+}
+/*右侧查询按钮*/
+
+.myList-query {
+    padding-top: 20px;
+    margin-left: 35px;
+}
+
+.myList-query button {
+    width: 80px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.myList-query input {
+    height: 23px;
+}
+.submit{
+    background: #56b85a;
+    border: 0;
+    color: white;
+}
+.reset{
+    background: #0497c2;
+    border: 0;
+    color: white;
+}
+.return{
+    background: #c7c7c7;
+    border: 0;
+    color: white;
+}
